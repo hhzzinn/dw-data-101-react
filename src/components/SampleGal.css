@@ -1,0 +1,35 @@
+#gal #wrap {
+  position: relative;
+}
+
+#gal #wrap img {
+  border-radius: 10px;
+}
+
+#gal #wrap button.chev {
+  position: absolute;
+  top: 50%;
+  height: 80px;
+  font-size: 30px;
+  background-color: rgb(99, 96, 96);
+  border: 1px solid gray;
+  color: white;
+  border-radius: 10px;
+}
+
+#gal #wrap button.chev.l {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+#gal #wrap button.chev.r {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+#gal div.txts {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

@@ -1,0 +1,44 @@
+.gal {
+  padding: 0 20px;
+}
+
+.gal .wrap {
+  position: relative;
+}
+
+.gal .wrap .chev {
+  position: absolute;
+  top: 50%;
+  height: 80px;
+  background-color: rgb(102, 102, 102);
+  align-items: center;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.gal .wrap .chev:hover {
+  background-color: var(--gray8);
+}
+
+.gal .wrap .chev:active {
+  background-color: var(--gray7);
+}
+
+.gal .wrap .chev.l {
+  transform: translate(-50%, -50%);
+  left: 0;
+}
+
+.gal .wrap .chev.r {
+  transform: translate(50%, -50%);
+  right: 0;
+}
+
+.gal .wrap div {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--red9);
+}

@@ -139,6 +139,15 @@
   list-style-type: none;
 }
 
+header,
+ul {
+  display: flex;
+}
+
+button {
+  color: white;
+}
+
 body {
   background-color: var(--gray9);
   color: var(--gray0);

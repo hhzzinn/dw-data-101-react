@@ -1,0 +1,42 @@
+.detail {
+  margin: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  font-size: small;
+  background-color: rgb(43, 42, 42);
+  transition: all 0.2s;
+}
+
+.detail .btn {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.detail button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.detail:hover {
+  background-color: rgb(59, 58, 58);
+  border: 1px solid rgb(107, 106, 106);
+  transform: scale(1.03);
+}
+
+.detail button:hover {
+  background-color: rgb(155, 153, 153);
+}
+
+.detail:hover .btn button {
+  background-color: rgb(44, 43, 43);
+}

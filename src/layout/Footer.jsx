@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import { FcGlobe } from "react-icons/fc";
+import Langbutton from "./Langbutton";
+
 const Footer = () => {
   return (
     <footer>
@@ -55,19 +57,17 @@ const Footer = () => {
           <a href="">오직 넷플릭스에서</a>
         </li>
       </ul>
-      <button className="lang">
-        <FcGlobe />
-        언어
-      </button>
+
+      <Langbutton />
 
       <p>넷플릭스 대한민국</p>
 
-      <div>
+      <p className="pp">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
         molestias iusto dolorem nesciunt necessitatibus expedita quas voluptas
         velit, molestiae recusandae, iure facere quidem mollitia unde laudantium
         vel maiores, tempore in?
-      </div>
+      </p>
     </footer>
   );
 };

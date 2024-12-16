@@ -1,0 +1,32 @@
+.detail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 15px;
+  margin: 5px 20px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--gray7);
+}
+
+.detail:hover {
+  background-color: var(--gray8);
+}
+
+.detail:hover button {
+  background-color: var(--gray9);
+}
+
+.detail div button {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--gray7);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.detail button:hover {
+  background-color: var(--gray8);
+}

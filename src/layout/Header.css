@@ -6,6 +6,7 @@ header {
   align-items: center;
   padding: 0 10px;
   border-bottom: 1px solid;
+  border: none;
   /* index.css에서 저장돼 있는 색을 --??로 가져온 것 */
 }
 
@@ -26,7 +27,7 @@ header ul {
   column-gap: 10px;
 }
 
-header ul button {
+header button {
   background-color: transparent;
   border: 1px solid;
   border-radius: 5px;
@@ -35,24 +36,24 @@ header ul button {
   padding: 10px 15px;
 }
 
-header ul #login {
+header #login {
   background-color: rgb(241, 51, 51);
   color: whitesmoke;
   border: none;
 }
 
-header ul #login:hover {
+header #login:hover {
   background-color: brown;
 }
 
-header ul #login:focus {
+header #login:active {
   background-color: brown;
 }
 
-header ul #lang:hover {
-  outline-color: white;
-}
-
-header ul #lang {
+header #lang {
   color: white;
+}
+
+header #lang:hover {
+  outline: 2px solid white;
 }

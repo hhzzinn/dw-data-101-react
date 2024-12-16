@@ -1,0 +1,37 @@
+Header {
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+header .hl {
+  background-color: transparent;
+  color: rgb(226, 17, 17);
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+header ul {
+  column-gap: 10px;
+}
+
+header ul .log {
+  background-color: rgb(226, 17, 17);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+header ul .log:hover {
+  background-color: rgb(212, 28, 28);
+}
+
+header ul .log:active {
+  background-color: brown;
+}
+
+header ul .lang:hover {
+  outline: 1px solid white;
+}

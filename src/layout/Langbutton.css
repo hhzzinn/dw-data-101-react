@@ -1,0 +1,16 @@
+footer button {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+footer button {
+  color: white;
+}
+
+footer button:hover {
+  outline: 2px solid white;
+}

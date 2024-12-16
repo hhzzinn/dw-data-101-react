@@ -1,0 +1,27 @@
+.cal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 60px;
+}
+
+.cal .l {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.cal .l div {
+  display: flex;
+  align-items: end;
+  column-gap: 10px;
+}
+
+.cal .l div p {
+  transform: translateY(-25%);
+}
+
+.cal .r {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}

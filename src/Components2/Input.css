@@ -1,0 +1,55 @@
+.wrap {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.wrap div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.wrap p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.wrap div input {
+  padding: 15px 10px;
+  background-color: transparent;
+  border: 1px solid var(--gray6);
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  font-size: 15px;
+}
+
+.wrap div input:focus {
+  border-color: var(--green7);
+}
+
+.wrap div button {
+  background-color: var(--red8);
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.wrap div div {
+  display: flex;
+  align-items: center;
+}
+
+.wrap div button:hover {
+  background-color: var(--red9);
+}
+
+.wrap div button:active {
+  background-color: brown;
+}

@@ -1,0 +1,28 @@
+/* grid 화면 분할 */
+ul#grid {
+  display: grid;
+  /* 기본값은 1fr하나 */
+  grid-template-columns: 1fr;
+}
+
+@media all and (min-width: 500px) {
+  ul#grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (min-width: 768px) {
+  ul#grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  ul#grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  ul#grid li:hover {
+    text-decoration: underline;
+  }
+}
