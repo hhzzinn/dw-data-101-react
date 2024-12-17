@@ -1,0 +1,28 @@
+header {
+  padding: 30px 20px;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  column-gap: 10px;
+}
+
+header .hb {
+  color: var(--red8);
+  font-size: 40px;
+}
+
+header .login {
+  background-color: var(--red8);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+header .login:hover {
+  background-color: var(--red9);
+}
+
+header .login:active {
+  background-color: brown;
+}

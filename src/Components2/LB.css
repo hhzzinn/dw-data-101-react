@@ -1,0 +1,28 @@
+.LB {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
+.LB button {
+  background-color: var(--red7);
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+
+.LB button:hover {
+  background-color: var(--red8);
+}
+
+.LB button:active {
+  background-color: var(--red9);
+}
+
+.LB p {
+  font-size: 20px;
+}

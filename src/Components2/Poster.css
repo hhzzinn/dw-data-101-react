@@ -1,0 +1,30 @@
+.poster {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.poster .wrap {
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 5px;
+}
+
+.poster .wrap div {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.poster .wrap div img {
+  cursor: pointer;
+  border-radius: 20px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.poster .wrap div:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}

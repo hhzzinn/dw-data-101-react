@@ -5,28 +5,27 @@
   font-size: 15px;
   margin: 5px 20px;
   background-color: transparent;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 20px 10px;
+  border-radius: 20px;
   border: 1px solid var(--gray7);
 }
 
 .detail:hover {
   background-color: var(--gray8);
+  transition: all 0.8s ease;
+  transform: scale(1.05);
 }
 
 .detail:hover button {
   background-color: var(--gray9);
+  outline: 1px solid white;
 }
 
 .detail div button {
   background-color: transparent;
-  padding: 10px;
+  padding: 8px;
   font-size: 16px;
   border: 1px solid var(--gray7);
-  border-radius: 10px;
+  border-radius: 25px;
   cursor: pointer;
-}
-
-.detail button:hover {
-  background-color: var(--gray8);
 }

@@ -1,0 +1,31 @@
+.reason {
+  padding: 20px;
+  row-gap: 10px;
+}
+
+.reason ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 10px 0;
+}
+
+.reason ul div {
+  background-color: var(--gray8);
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  border-radius: 15px;
+  align-items: center;
+  border: 1px solid var(--gray7);
+}
+
+.reason div svg {
+  font-size: 30px;
+  color: rgb(246, 10, 10);
+}
+
+.reason ul div:hover {
+  background-color: var(--gray6);
+}

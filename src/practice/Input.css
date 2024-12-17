@@ -1,0 +1,53 @@
+.input {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.input p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.input div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.input div input {
+  display: flex;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid var(--gray7);
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  max-width: 600px;
+  width: 100%;
+}
+
+.input input:focus {
+  border-color: var(--green6);
+}
+
+.input div button {
+  background-color: var(--red8);
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.input div button:hover {
+  background-color: var(--red9);
+}
+
+.input div button:active {
+  background-color: brown;
+}

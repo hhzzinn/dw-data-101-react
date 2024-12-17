@@ -34,13 +34,47 @@
 
 // export default App;
 
+// import React from "react";
+// import Header from "./Components2/Header";
+// import Gallery from "./Components2/Gallery";
+// import Input from "./Components2/Input";
+// import Detail from "./Components2/Detail";
+// import Calendar from "./Components2/Calendar";
+// import LButton from "./Components2/LButton";
+// import Poster from "./Components2/Poster";
+// import Reason from "./Components2/Reason";
+// import FAQ from "./Components2/FAQ";
+// import LB from "./Components2/LB";
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Header />
+//       <Gallery />
+//       <Input />
+//       <Detail />
+//       <Calendar />
+//       <Poster />
+//       <Poster />
+//       <Reason />
+//       <FAQ />
+//       <LB />
+//     </div>
+//   );
+// };
+
+// export default App;
 import React from "react";
-import Header from "./Components2/Header";
-import Gallery from "./Components2/Gallery";
-import Input from "./Components2/Input";
-import Detail from "./Components2/Detail";
-import Calendar from "./Components2/Calendar";
-import LButton from "./Components2/LButton";
+import Header from "./practice/Header";
+import Gallery from "./practice/Gallery";
+import Input from "./practice/Input";
+import Detail from "./practice/Detail";
+import Poster from "./practice/Poster";
+import FAQ from "./practice/FAQ";
+import LB from "./practice/LB";
+import Footer from "./practice/Footer";
+import Reason from "./practice/Reason";
+import Langbutton from "./practice/Langbutton";
 
 const App = () => {
   return (
@@ -49,7 +83,11 @@ const App = () => {
       <Gallery />
       <Input />
       <Detail />
-      <Calendar />
+      <Poster />
+      <Reason />
+      <FAQ />
+      <LB />
+      <Footer />
     </div>
   );
 };
